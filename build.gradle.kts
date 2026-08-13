@@ -1,5 +1,5 @@
 plugins {
-    id("fabric-loom") version "1.14-SNAPSHOT"
+    id("fabric-loom") version "1.14"
 }
 
 val targetVersion = findProperty("target_version") as String? ?: "1_21_11"
